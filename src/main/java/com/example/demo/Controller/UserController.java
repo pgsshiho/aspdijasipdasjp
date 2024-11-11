@@ -11,7 +11,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/users")
 public class UserController {
-    @Autowired
+    @Autowired//오토와이어
     UserService userService;//service
 
     @PostMapping("")
